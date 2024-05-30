@@ -1,4 +1,4 @@
-# WTF Graph minimalist tutorial: 1. Hello React
+# WTF Graph minimalist tutorial: 1. Hello Graph
 
 WTF Graph tutorial helps newcomers get started with using Graph quickly.
 
