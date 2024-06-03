@@ -24,3 +24,20 @@ Subgraph Manifest: The subgraph manifest is a description of the subgraph, inclu
 3. Indexing Events: As events are logged in the smart contracts, the Graph Node watches for these events, processes the data according to the subgraph manifest, and stores the indexed data in its IPFS database.
 
 4. Querying Data: Applications can use the GraphQL API to query the indexed data in the subgraphs, making it easier to access and retrieve specific information from the blockchain.
+
+# The Graph Network 
+
+The Graph Network has a complex token economics model that involves four key participants: developers, indexers, curators, and delegators. The Graph's native token, GRT (Graph Token), plays a vital role in coordinating the behaviour of these participants. Here's an overview of each role and how they interact within The Graph's ecosystem
+
+![graph network](./img/1-1.png)
+
+1. Developers: They create subgraphs, which are open APIs that define how to index blockchain data for easy querying. Developers use the GraphQL API to query indexed data in the subgraphs, and they pay query fees to the indexers.
+  
+2. Indexers: They operate nodes that process and index data from blockchains, making it easily searchable in subgraphs. Indexers earn GRT tokens for their services, and they stake GRT to provide economic security for the network.
+  
+3. Curators: They are subgraph developers or enthusiasts who assess the quality and usefulness of subgraphs. Curators signal on subgraphs by depositing GRT, which helps indexers identify high-quality subgraphs to index. They earn a portion of query fees for the subgraphs they signal on.
+
+4. Delegators: They are GRT token holders who delegate their tokens to indexers to help secure the network without running a node themselves. Delegators earn a portion of query fees and indexer rewards in return for their delegation.
+The Graph's token economics aim to incentivize these participants to contribute to the network's growth and security while facilitating a decentralized and scalable infrastructure for querying blockchain data.
+
+# Summary 
