@@ -41,3 +41,5 @@ The Graph Network has a complex token economics model that involves four key par
 The Graph's token economics aim to incentivize these participants to contribute to the network's growth and security while facilitating a decentralized and scalable infrastructure for querying blockchain data.
 
 # Summary 
+
+In this introductory section, we look at what the graph does, how it does it and the graph ecosystem. In the next section, we'll explore some of the introduced concepts in details. 
