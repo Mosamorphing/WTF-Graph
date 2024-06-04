@@ -37,4 +37,18 @@ graph init --studio usdt-subgraph-
 
 6. It will also fetch the start block. if it doesn't, check for the start block on the blockchain explorer you're on (in this example, etherscan) and paste it and click enter.
 
-7. You're then asked if you want to index contract events. Enter y and let the command run. 
+7. You're then asked if you want to index contract events. Enter y and let the command run. This will take a few minutes as it is gathering all events that has been logged from the Tether contract and convert them into queriable entities.
+
+8. Once it is done, you're asked if you want to run another contract. For now, click 'n'
+
+9. Authenticate in CLI
+
+```javascript
+graph auth --studio c980c8c5fb79935fa7c87a98983c4f6a
+```
+
+10. Run the `graph codegen` & `graph build` in the directory
+
+```javascript
+graph codegen && graph build
+```
