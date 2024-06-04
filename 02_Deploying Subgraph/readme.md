@@ -20,6 +20,8 @@ To deploy on Subgraph Studio;
 
 2. Click "Create a Subgraph". Enter the name of the project you would like to index. For the sake of this lecture, we'll index the USDT Token. So, we name our subgraph "USDT Subgraph" and click on "create subgraph".
 
+![logs](./img/2-1.png)
+
 3.  Install the GRAPH CLI using `npm` or `yarn`
 
 ```javascript
@@ -34,6 +36,8 @@ graph init --studio usdt-subgraph-
 ```
 
 5. You will be prompted to input some details such as the protocol, ethereum network and contract address. When you input the CA, it automatically fetches the contract ABI from Etherscan.
+
+![logs](./img/2-4.png)
 
 6. It will also fetch the start block. if it doesn't, check for the start block on the blockchain explorer you're on (in this example, etherscan) and paste it and click enter.
 
