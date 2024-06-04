@@ -33,5 +33,8 @@ yarn global add @graphprotocol/graph-cli
 graph init --studio usdt-subgraph-
 ```
 
-5. You will be prompted to input some details such as the protocol, ethereum network and contract address. Follow through with the propmts. 
+5. You will be prompted to input some details such as the protocol, ethereum network and contract address. When you input the CA, it automatically fetches the contract ABI from Etherscan.
 
+6. It will also fetch the start block. if it doesn't, check for the start block on the blockchain explorer you're on (in this example, etherscan) and paste it and click enter.
+
+7. You're then asked if you want to index contract events. Enter y and let the command run. 
