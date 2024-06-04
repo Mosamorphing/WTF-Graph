@@ -52,3 +52,16 @@ graph auth --studio c980c8c5fb79935fa7c87a98983c4f6a
 ```javascript
 graph codegen && graph build
 ```
+
+11. Deploy your subgraph to subgraph studio
+
+```javascript
+graph deploy --studio usdt-subgraph-
+```
+At 100%, you have successfully indexed the events on Tether USDT to the subgraph studio.
+
+![uploaded](./img/2-2.png)
+
+# Note
+
+The Graph Studio is a staging/hosting environment for indexing your project before publishing. We're going to cover how to publish in the next lecture. 
