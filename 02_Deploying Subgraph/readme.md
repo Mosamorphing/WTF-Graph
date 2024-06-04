@@ -62,6 +62,16 @@ At 100%, you have successfully indexed the events on Tether USDT to the subgraph
 
 ![uploaded](./img/2-2.png)
 
-# Note
+**Note:**
 
-The Graph Studio is a staging/hosting environment for indexing your project before publishing. We're going to cover how to publish in the next lecture. 
+The Graph Studio is a staging/hosting environment for indexing your project before publishing. In the home section, you can see the 'playground', 'logs' & 'details'. 
+
+You can use the playground to fetch events easily and you will get it in real time. 
+
+In the example below, we have queried the last 5 transactions, the amount involved in the transaction, the block number and the blockTimestamp.
+
+![logs](./img/2-3.png)
+
+
+
+We're going to cover how to publish in the next lecture. 
