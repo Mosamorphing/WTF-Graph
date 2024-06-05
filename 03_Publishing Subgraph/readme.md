@@ -22,6 +22,6 @@ In the channel, type "!grt(space)followedByYourWalletAddress" e.g !grt 0x564268F
 
 2. Get Ethereum Sepolia Eth from a faucet
 3. Get Arbitrum Sepolia Eth from a faucet
-4. Bridge Ethereum Seepolia GRT to Arbitrum using Arbitrum Bridge
-5. Publish ypur subgraph
+4. Bridge Ethereum Sepolia GRT to Arbitrum using Arbitrum Bridge
+5. Publish your subgraph
 
