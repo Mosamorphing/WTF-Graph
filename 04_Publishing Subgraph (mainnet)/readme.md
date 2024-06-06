@@ -29,3 +29,7 @@ After publishing your subgraph, head over to the Graph Explorer, and click "Arbi
 ![4-1](./img/4-1.png) 
 
 In the example image above, you can see that this project is "indexing" because it is on the mainnet. Also, you can find the number of indexers and curators active on the project. 
+
+# Summary
+
+In this lecture, we see a step by step guide on how to publish subgraphs to mainnet (Arbitrum One)
