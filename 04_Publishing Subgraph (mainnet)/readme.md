@@ -26,6 +26,6 @@ When you're done bridging, head back to your deployed index on the Graph Studio 
 
 After publishing your subgraph, head over to the Graph Explorer, and click "Arbitrum One", you'll find your published subgraph there.  
 
-![1-1](./img/4-1.png) 
+![4-1](./img/4-1.png) 
 
 In the example image above, you can see that this project is "indexing" because it is on the mainnet. Also, you can find the number of indexers and curators active on the project. 
