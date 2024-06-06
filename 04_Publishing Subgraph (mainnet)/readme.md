@@ -32,4 +32,4 @@ In the example image above, you can see that this project is "indexing" because 
 
 # Summary
 
-In this lecture, we see a step by step guide on how to publish subgraphs to mainnet (Arbitrum One)
+In this lecture, we see a step-by-step guide on how to publish subgraphs to mainnet (Arbitrum One).
