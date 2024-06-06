@@ -1,4 +1,4 @@
-# WTF Graph minimalist tutorial: 3. Publishing Subgraph
+# WTF Graph minimalist tutorial: 3. Publishing Subgraph on Testnet
 
 WTF Graph tutorial helps newcomers get started with using Graph quickly.
 
