@@ -8,7 +8,7 @@ WTF Graph tutorial helps newcomers get started with using Graph quickly.
 
 ---
 
-In this lecture, we're going to build up on where we stopped in lesson 02. If you haven't deployed your subgraph in the singraph studio, check the lesson and follow through because in this lecture, we will be publishing our subgraph to the Subgraph Network. 
+In this lecture, we're going to build up on where we stopped in lesson 02. If you haven't deployed your subgraph in the subgraph studio, check the previous lesson and follow through because in this lecture, we will be publishing our subgraph to the Subgraph Network. 
 
 When you hit the 'publish' button, you see the option to publish to Arbitrum One (recommended) and Arbitrum Sepolia. We will use the testnet (sepolia) to publish and get a feel of publishing subgraphs to decentralized networks before we use the Arbitrum One (mainnet).
 
@@ -49,5 +49,4 @@ After you input the 10,000, sign the transaction and publish. Once it is success
 
 ![bridge](./img/3-6.png)
 
-
-
+Note: The testnet publication is not indexed. Publications only get indexed on the mainnet. We will cover that in the next lecture.
