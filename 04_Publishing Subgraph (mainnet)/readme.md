@@ -1,4 +1,4 @@
-# WTF Graph minimalist tutorial: 4. Publishing Subgraph (mainnet)
+# WTF Graph minimalist tutorial: 4. Publishing Subgraph on Mainnet
 
 WTF Graph tutorial helps newcomers get started with using Graph quickly.
 
