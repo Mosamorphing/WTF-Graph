@@ -50,3 +50,7 @@ After you input the 10,000, sign the transaction and publish. Once it is success
 ![bridge](./img/3-6.png)
 
 Note: The testnet publication is not indexed. Publications only get indexed on the mainnet. We will cover that in the next lecture.
+
+# Summary 
+
+In this lecture, we see a step-by-step guide on how to publish subgraphs on testnet. 
