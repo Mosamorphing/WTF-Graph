@@ -28,13 +28,13 @@ Ideally, you'll need to query a subgraph to fetch data to a front-end applicatio
 You can create a test react project and continue below:
 
 1. Install `urql` and `graphql`:
-```
+```javascript
 npm install urql graphql
 ```
 
 2. In your react project, pass the API with the following code:
 
-```
+```javascript
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { createClient, cacheExchange, fetchExchange, gql } from '@urql/core';
@@ -60,4 +60,49 @@ If you already have one, don't forget to copy and substitute it for the `api-key
 
 ![5-2](./img/5-2.png) 
 
+# Writing Queries 
 
+Some projects have a well-written query in their schema (the schema.graphql file) and some don't. Also, not all parameters can be queried. So, it is good practice to refer to the subgraph schema on github to see how the queries are written to fetch specific data. Query commands always follow the schema structure. 
+
+For example, this is a query from Crytopunks to fetch the first account with its owned punks, bought items, and total NFTs owned, and also fetch the first four punks with details about their transfer, assignment, and purchase records.
+
+```javascript
+{
+  accounts(first: 1) {
+    id
+    punksOwned {
+      id
+    }
+    bought {
+      id
+    }
+    nftsOwned
+  }
+  punks(first: 4) {
+    id
+    transferedTo {
+      id
+    }
+    assignedTo {
+      id
+    }
+    purchasedBy {
+      id
+    }
+  }
+}
+```
+
+Checking to see if our query is fetched on the browser, we see it successfully fetched as shown below:
+
+![5-3](./img/5-3.png) 
+
+# Summary 
+
+In this lesson, we examine GraphQL using URQL and how to query. We also looked at how to writ correct queries from studying schemas.
+
+# Exercise
+
+Using Cryptopunks, study the [scheme.graphql](https://github.com/itsjerryokolo/CryptoPunks/blob/main/schema.graphql) to see how a schema is structured. 
+
+Input other parameters for query, crosscheck in your browser to see if you're correct or not. 
