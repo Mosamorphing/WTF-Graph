@@ -97,6 +97,8 @@ Checking to see if our query is fetched on the browser, we see it successfully f
 
 ![5-3](./img/5-3.png) 
 
+![5-4](./img/5-4.png) 
+
 # Summary 
 
 In this lesson, we examine GraphQL using URQL and how to query. We also looked at how to writ correct queries from studying schemas.
